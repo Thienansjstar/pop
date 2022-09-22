@@ -1,0 +1,47 @@
+footer {
+    background: var(--color-bg-variant);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 7rem;
+    background-image: url(../../assets/polygon-scatter-haikei.svg);
+}
+
+footer a{
+    color: var(--color-white);
+
+}
+
+.permalinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:3rem;
+    margin: 0 auto 3rem;
+
+
+}
+
+.footer__socials{
+    display:flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+.footer__socials a{
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: .8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer__socials a:hover{
+    background:transparent;
+    color:var(--color-bg);
+    border-color:var(--color-bg);
+}
+.footer__copyright{
+    margin-bottom: 4rem;
+}

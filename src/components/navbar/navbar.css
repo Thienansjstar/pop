@@ -1,0 +1,31 @@
+.navbar__items {
+    box-sizing: border-box;
+    
+    height: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: transparent;
+    
+    position: relative;
+   
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 2rem;
+    margin-top: 0px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 3rem;
+}
+/*mdeida*/
+@media screen and (max-width: 1024px) {
+   ul{
+    display: none;
+   }
+ }
+ 
+ 
