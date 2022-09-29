@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/53295fbd-9da9-43e4-a169-3486f0cc72b4/AppServices/subscriptions/53295fbd-9da9-43e4-a169-3486f0cc72b4/resourceGroups/Thien-An/providers/Microsoft.Web/sites/Thien-An",
+    "appService.deploySubpath": "."
+}

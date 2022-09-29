@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import AboutMe from '../../assets/Abobut_Me.JPG'
 
 import{FaAward} from 'react-icons/fa'
 
@@ -13,7 +14,7 @@ const about = () => {
     <div className="container about__container">
       <div className="about__me">
         <div className="about__me-image">
-        
+          <img src={AboutMe} alt="e" />
         </div>
       </div>
 
