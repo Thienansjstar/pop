@@ -1,7 +1,7 @@
 {
   "name": "tt",
   "version": "0.1.0",
-  "homepage": "https://thienansjstar.github.io/tt",
+  "homepage": "https://thienansjstar.github.io/react-deploy",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
